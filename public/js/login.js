@@ -29,7 +29,7 @@ function validasiLogin() {
 
     if (user){
         alert("Selamat Datang.")
-        window.location.href = "dashboard.html";
+        window.location.href = "Dashboard.html";
         return false;
     } else {
         alert("Login Gagal!!")
